@@ -4,17 +4,17 @@ class VacuumCleaner {
   counterOfStarts = 0;
   isFull = false;
   isObstacle = false;
-  // Для создания конструктора, нужно создать методconstructor.
+  // Для создания конструктора, нужно создать метод constructor.
   constructor() { }
   startCleaning() {
     this.counterOfStarts++;
-    // Добавим дополнительный вывод, чтобы знать чей методмы вызвали.
+    // Добавим дополнительный вывод, чтобы знать чей метод мы вызвали.
     console.log('I am the method of VacuumCleaner');
     console.log('I am cleaning... I have been started: ',
       this.counterOfStarts, 'times.');
   }
   goCharge() {
-    // Добавим дополнительный вывод, чтобы знать чей методмы вызвали.
+    // Добавим дополнительный вывод, чтобы знать чей метод мы вызвали.
     console.log('I am the method of VacuumCleaner');
     console.log('I am going to charge...');
   }
