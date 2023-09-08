@@ -34,8 +34,7 @@ employee.displayInfo();
 
 class Manager extends Employee {
   constructor(name, department) {
-    super();
-    this.name = name;
+    super(name);
     this.department = department;
   }
   displayInfo() {
